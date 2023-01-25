@@ -11,6 +11,10 @@ State management for the data that is moved between pages as the navigation chan
 
 ## Running app
 `npm start`
+### Navigation
+Each route is accessible directly from the browser.
+The app will keep state of the user's entries as the user navigate forwards and backwords through the app.
+The state of the app is reset when the user reaches `/error` or `/success` pages.
 
 ## Routes and Pages
 All the pages can be found under `src/routes`.  There is a `Layout` component that each page uses for basic container setting.
